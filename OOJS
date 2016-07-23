@@ -51,5 +51,28 @@ Person.prototype.initials = function(){
 
 var Kevin = new Person("Kevin","Solorio","12345679");
 
-console.log(Kevin.initials())
+// console.log(Kevin.initials())
 // console.log(Kevin.maskedSSN());
+
+// Object.create() - object creation alternative
+// I can define a set of functions as a hash and pass it to the Object.create(). This will add all the functions to prototype.
+
+var behavior = {
+  fullName: function(){
+      return this.firstName+" "+this.lastName;
+  // end of function fullname
+  },
+  initials: function() {
+      return this.firstName[0]+". "+this.lastName[0]+".";
+    // end of function initials
+  }
+
+// end of behavior
+};
+
+var person = Object.create(behavior);
+
+person.firstName = "Jon";
+person.lastName = "Smith";
+
+console.log(person.initials());
