@@ -2,7 +2,7 @@
     This are some simple Javascript code
 
 ### Phrase generator
-    [js file](js/phraseGenerator.js)
+[js file](js/phraseGenerator.js)
   > create a function that generate a random phrases,
     create three literal arrays,
     randomly generate number based on the arrays length,
@@ -10,7 +10,10 @@
     concatenate the values to create a random phrase
 
 ### Array Iteration
-    Use for loop to access array vales and index and print to console [ js file ](js/arrayIteration.js)
+
+[ js file ](js/arrayIteration.js)
+
+    Use for loop to access array vales and index and print to console
 
 * Display all of the values on a array
 
@@ -35,4 +38,6 @@
  <strong> END FOR </strong>  <br>
  <strong> DISPLAY </strong> topValuesIndex
 
-      Refactor code to use functions to make code more reusable  [js file](js/arrayIterationRefactor.js)
+[js file](js/arrayIterationRefactor.js)
+
+      Refactor code to use functions to make code more reusable  
