@@ -35,4 +35,4 @@
  <strong> END FOR </strong>  <br>
  <strong> DISPLAY </strong> topValuesIndex
 
-      Refactor code to use functions [js file](js/arrayIterationRefactor.js)
+      Refactor code to use functions to make code more reusable  [js file](js/arrayIterationRefactor.js)
