@@ -15,20 +15,20 @@
   pseudocode
 
   <strong> DECLARE </strong> a variable highestValue and set it to zero <br/>
-  ** FOR ** : var i = 0; i < array.length; i++ <br/>
-  ** DISPLAY ** the array values array[i]<br/>
-  ** IF ** array[i] > highestValue <br/>
-  ** SET ** highestValue == array[i]<br/>
-  ** END IF ** <br>
-  ** END FOR ** <br>
-  ** DISPLAY ** highestValue
+  <strong> FOR </strong> : var i = 0; i < array.length; i++ <br/>
+  <strong> DISPLAY </strong> the array values array[i]<br/>
+  <strong> IF </strong> array[i] > highestValue <br/>
+  <strong> SET </strong> highestValue == array[i]<br/>
+  <strong> END IF </strong> <br>
+  <strong> END FOR </strong> <br>
+  <strong> DISPLAY </strong> highestValue
 
 * Display all top values index
 
  <strong> DECLARE </strong> a array topValuesIndex and set it to empty array <br/>
- ** FOR ** : var i = 0; i < array.length; i++ <br/>
- ** IF ** highestValue === topValuesIndex <br/>
- ** ADD ** push i to topValuesIndex <br >
- ** END IF ** <br >
- ** END FOR **  <br>
- ** DISPLAY ** topValuesIndex
+ <strong> FOR </strong> : var i = 0; i < array.length; i++ <br/>
+ <strong> IF </strong> highestValue === topValuesIndex <br/>
+ <strong> ADD </strong> push i to topValuesIndex <br >
+ <strong> END IF </strong> <br >
+ <strong> END FOR </strong>  <br>
+ <strong> DISPLAY </strong> topValuesIndex
