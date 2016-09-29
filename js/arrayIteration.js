@@ -9,11 +9,11 @@ var array = [
 
 var highestValue = 0 ;
 var topValuesIndex = [];
-
+var printValues;
 for(var i=0; i < array.length; i++){
+  printValues = "Array index #"+ i +" value: "+array[i];
   // display all of the array values the console
-  console.log("Array index #"+ i +" value: "+array[i]);
-
+console.log(printValues);
   // get the highes value
   if(highestValue < array[i]){
       highestValue = array[i];
