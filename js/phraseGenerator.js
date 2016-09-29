@@ -12,7 +12,6 @@ function makePhrase(){
 //gnerate a phras, use the random number generated to get a word by its index
   var phrase = words1[rand1]+" "+words2[rand2]+" "+words3[rand3]
 
-
   alert(phrase)
 
 }
