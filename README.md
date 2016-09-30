@@ -41,3 +41,21 @@
 [js file](js/arrayIterationRefactor.js)
 
       Refactor code to use functions to make code more reusable  
+
+* user a second array to bind the best score
+
+[js file](js/twoArrayIteration.js)
+
+  pseudocode
+
+  ** FUNCTION ** getBestScoreValue(score,costs,highScore);<br/>
+  <strong> DECLARE </strong> variable cost and set to 100 <br/>
+  <strong> FOR </strong> : var i = 0; i < array.length; i++ <br/>
+  <strong> IF </strong> array[i] === highScore <br/>
+  <strong> IF </strong> score[i] < bestScore <br/>
+  <strong> SET </strong> index to i  <br >
+  <strong> SET </strong> bestScore to bestScore[i]  <br >
+  <strong> END IF </strong> <br >
+  <strong> END IF </strong> <br >
+  <strong> END FOR </strong>  <br>
+  <strong> RETURN </strong> index
